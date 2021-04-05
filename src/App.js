@@ -10,6 +10,7 @@ function App() {
     { id: "003", text: "Help to kids to complete their art&craft", completed: false, date: "2019-09-27" },
     { id: "004", text: "Buy a milk", completed: true, date: "2019-09-20" },
     { id: "007", text: "Mending broken table", completed: false, date: "2019-09-22" }
+    { id: "008", text: "paint store room", completed: false, date: "2019-09-19" }
   ])
   const deleteTask = id => {
     const updatedTasks = tasks.filter(task => task.id !== id)
